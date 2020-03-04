@@ -25,10 +25,6 @@
 
     <!--animate.css-->
     <link rel="stylesheet" href="{% static 'summary/css/animate.css' %}">
-
-    <!--owl.carousel.css
-    <link rel="stylesheet" href="{% static 'summary/css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static 'summary/css/owl.theme.default.min.css' %}">-->
     
     <!--bootstrap.min.css-->
     <link rel="stylesheet" href="{% static 'summary/css/bootstrap.min.css' %}">
@@ -84,6 +80,7 @@
                 <li class="smooth-menu"><a href="#fdd">{{ navbar.4 }}</a></li>
                 <li class="smooth-menu"><a href="#dsdm">{{ navbar.5 }}</a></li>
                 <li class="smooth-menu"><a href="#asd">{{ navbar.6 }}</a></li>
+                <li class="smooth-menu"><a href="#stats">{{ navbar.8 }}</a></li>
               </ul><!--/.nav -->
             </div><!-- /.navbar-collapse -->
           </div><!--/.container-->
@@ -335,13 +332,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.1.statistics.title}}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.1.agile_table %}
               <tr>
@@ -368,13 +358,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.2.statistics.title }}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.2.agile_table %}
               <tr>
@@ -400,13 +383,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.3.statistics.title }}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.3.agile_table %}
               <tr>
@@ -432,13 +408,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.4.statistics.title }}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.4.agile_table %}
               <tr>
@@ -466,13 +435,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.5.statistics.title }}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.5.agile_table %}
               <tr>
@@ -499,13 +461,6 @@
       </div>
       <div class="container">
         <div class="table-content">
-          <div class="row">
-            <div class="manifesto">
-              <h3>
-                {{ sections.6.statistics.title }}
-              </h3>
-            </div>
-          </div>
           <table>
             {% for value in sections.6.agile_table %}
               <tr>
@@ -523,6 +478,38 @@
       </div>  <!-- /.container -->    
     </section><!--/.contact-->
     <!--asd end -->
+
+    <!--statistics start -->
+    <section id="stats" class="skills">
+      <div class="section-heading text-center">
+        <h2>{{ sections.8.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="manifesto">
+            <h3>
+              {{ sections.8.description }}
+            </h3>
+          </div>
+        </div>
+        <div class="table-content">
+          {% for value in sections.8.statistic_list %}
+            <h4 class="survey-link">
+              {% autoescape off %}
+                {{ value.title }}
+              {% endautoescape %}
+            </h4>
+            <ul class="stats-list">
+              {% for point in value.data %}
+                <li>{{ point }}</li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+
+    </section><!--/.skills-->
+    <!--statistics end -->
 
     <!--footer-copyright start-->
     <footer id="footer-copyright" class="footer-copyright">
@@ -567,12 +554,6 @@
 
     <!-- appear js -->
     <script src="{% static 'summary/js/jquery.appear.js' %}"></script>
-
-    <!-- for progress bar end -->
-
-    <!--owl.carousel.js-->
-    <!--    <script src="{% static 'summary/js/owl.carousel.min.js' %}"></script>-->
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     

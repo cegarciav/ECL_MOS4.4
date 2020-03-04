@@ -12,7 +12,8 @@
                         "FDD",
                         "DSDM",
                         "ASD",
-                        "À propos"
+                        "À propos",
+                        "Statistiques"
                     ],
         "definition" : "<h2>Agile <span>: «</span> Qui a de la facilité<br/>et de la rapidité dans l'exécution<br/>de ses mouvements <span>»</span></h2>",
         "subtitle" : "Veille technologique École Centrale de Lyon : Comparaison des méthodes de développement agile",
@@ -45,9 +46,6 @@
                         },
                         {
                             "title" : "Scrum",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Rôles et ses responsabilités bien définis (Scrum Master, Équipe de développement ou Scrum Team, Product Owner)", "Travail divisé en Sprints, où chacun doit livrer un produit fonctionnel, alors testé", "Le Product Owner est le lien entre le client et le Scrum Team", "Les Scrum Teams sont auto-organisées et plurifonctionnelles. Personne ne dit aux Scrum Teams comment tranformer les éléments du Backlog en incréments"],
@@ -61,9 +59,6 @@
                         },
                         {
                             "title" : "Kanban",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Le Kanban Board a une représentation visuelle du process et du travail facilement visible par l'équipe", "Le travail est divisé en colonnes, normalement \"TO DO\", \"IN PROGRESS\" et \"DONE\"", "Kanban déclare que les managers devraient travailler en collaboration avec l'équipe. Cela leur permet d'obtenir nouveaux points de vue et maintient les membres de l'équipe engagés à faire fonctionner les choses", "Le travail se déplace à travers les colonnes. La quantité et le nom des colonnes sont adaptés au projet"],
@@ -73,9 +68,6 @@
                         },
                         {
                             "title" : "Extreme Programming",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Pair Programming", "Des tests continus", "Le Costumer écrit les histoires (1 histoire pour chaque caractéristique)", "Les histoires sont régulièrement mises à jour"],
@@ -88,9 +80,6 @@
                         },
                         {
                             "title" : "Feature Driven Development",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Rôles definis :<br><ul><li><b>Rôles clé :</b> Project Manager, Chief Programmer, Class Owner et Domain Expert</li><li><b>Rôles de soutènement :</b> Release Manager, Language Guru, Build Engineer, Toolsmith, and System Administrator</li><li><b>Rôles additionnels :</b> Tester, Deployer, and Technical Writer</li></ul>", "Les Feature Sets sont séquencés selon leur priorité et leur dépendances", "L'équipe de développement présente le \"Client Valued Functions\", ensemble des caractéristiques provenant des exigences des utilisateurs. Cette liste de caractéristiques doit être validée par les utilisateurs et les sponsors du système", "Le domaine global est divisé en différents domaines plus spécifiques"],
@@ -101,9 +90,6 @@
                         },
                         {
                             "title" : "Dynamic Systems Development Method",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Il y a 15 rôles pour les clients et les développeurs, dont les plus importants :<br><ul><li><b>Développement :</b> Developers, Senior Developers et Technical Coordinator</li><li><b>Client :</b> Ambassador User, Adviser User, Visionary et Executive Sponsor</li></ul>", "Les prototypes faits pendant la phase \"Functional Model Iteration\" sont graduellement amenés vers un niveau de qualité qui leur permet d'être partie du système final", "Dans la phase \"Business Study\", les experts du client décident des aspects importants du système et les priorités", "Les iterations, appelées \"timeboxes\", ont une durée de quelque jours à quelque semaines"],
@@ -115,9 +101,6 @@
                         },
                         {
                             "title" : "Adaptive Software Development",
-                            "statistics" : {
-                                                "title" : "Statistiques d'utilisation"
-                                            },
                             "agile_table" : [
                                                 ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
                                                 ["Pas de description fixe de l'équipe, mais certains rôles sont définis (le Execute Sponsor, par exemple). Pendant les séances appelées Joint Application Development (JAD), on trouve des rôles comme le Facilitator, le Scribe, le Project Manager, le Customer et les Development Representatives", "L'attention est porté sur les résultats et leur qualité plutôt que sur les tâches ou les processus utilisés pour mettre en place ces résultats", "Il y a des séances Joint Application Development (JAD), où les clients et les développeurs discutent des caractéristiques souhaitées. Les séances JAD sont décrites comme particulièrement importantes au début du projet", "\"Équilibre à la limite du chaos\" : supervision assez forte pour prévenir l'échec du projet, mais pas trop forte parce que cela pourrait réprimer l'émergence et la creativité"],
@@ -129,7 +112,39 @@
                         },
                         {
                             "title" : "À propos",
-                            "description" : "Dans le cadre du cours \"Nouvelles Technologies de l'Information et de la Communication\" proposé aux élèves de troisième année de l'École Centrale de Lyon, j'ai développé un outil de veille pour trouver des informations concernant les méthodologies de développement agile des logiciels. Le premier but de cet outil a été de comparer les différentes méthodes agiles existantes, alors que le deuxième a été d'essayer de trouver des statistiques d'utilisation pour chaque méthodologie trouvée. Ce site web est une synthèse des informations obtenues par l'outil mis en place.<br>La synthèse commence tout d'abord avec le Manifeste Agile, le document qui formalise le développement agile. Après, pour chaque méthode agile obtenue par l'outil de veille, des statistiques trouvées sont proposées. En plus, un tableau contenant des caractéristiques de la méthode (non nécessairement exhaustif) est proposé également. Ces caractéristiques sont classifiées selon les 4 piliers de valeur proposés par le Manifeste Agile.<br>Pour développer cet outil, j'ai utilisé des moteurs de recherche comme <b>Social-Searcher</b> et <b>Google Scholar</b>. Ces moteurs m'ont permis de trouver des sources tels que l'<b>Agile Alliance</b>, <b>Scrum.org</b> et <b>Serious Scrum</b> sur <b>Medium.com</b>, ainsi que des articles scientifiques. Finalement, j'ai reçu les résultats des moteurs de recherche directement sur ma boite mail (ou par flux RSS si le mail n'était pas une option) puis j'ai partagé sur mon compte Twitter ceux que j'ai trouvé les plus pertinents"
+                            "description" : "Dans le cadre du cours \"Nouvelles Technologies de l'Information et de la Communication\" proposé aux élèves de troisième année de l'École Centrale de Lyon, j'ai développé un outil de veille pour trouver des informations concernant les méthodologies de développement agile des logiciels. Le premier but de cet outil a été de comparer les différentes méthodes agiles existantes, alors que le deuxième a été d'essayer de trouver des statistiques d'utilisation pour chaque méthodologie trouvée. Ce site web est une synthèse des informations obtenues par l'outil mis en place.<br>La synthèse commence tout d'abord avec le Manifeste Agile, le document qui formalise le développement agile. Après, pour chaque méthode agile obtenue par l'outil de veille, un tableau contenant des caractéristiques de la méthode (non nécessairement exhaustif) est proposé. Ces caractéristiques sont classifiées selon les 4 piliers de valeur proposés par le Manifeste Agile. Finalement, une section avec quelques statistiques concernant les méthodes agiles de développement des logiciels est proposée.<br>Pour développer cet outil, j'ai utilisé des moteurs de recherche comme <b>Social-Searcher</b> et <b>Google Scholar</b>. Ces moteurs m'ont permis de trouver des sources tels que l'<b>Agile Alliance</b>, <b>Scrum.org</b> et <b>Serious Scrum</b> sur <b>Medium.com</b>, ainsi que des articles scientifiques. Finalement, j'ai reçu les résultats des moteurs de recherche directement sur ma boite mail (ou par flux RSS si le mail n'était pas une option) puis j'ai partagé sur mon compte Twitter ceux que j'ai trouvé les plus pertinents."
+                        },
+                        {
+                            "title" : "Statistiques",
+                            "description" : "Même si l'idée initiale a été de trouver des statistiques d'utilisation par méthode et par pays, les résultats n'ont pas été ainsi favorables. De toute manière, voici quelques statistiques fournies par l'outil de veille :",
+                            "statistic_list" : [
+                                                        {
+                                                            "title" : "<a href='https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Files%20and%20PDFs/State%20of%20Scrum/2017-SoSR-Final-Version-(Pages).pdf'>Enquête</a> faite par Scrum Alliance pour ces plus de 2000 membres dans l'année 2017.",
+                                                            "data" : [
+                                                                        "Le Top 5 : 48% des membres viennent des États Unis, 7% de l'Inde, 6% de l'Allemagne, 5% du Royaume-Uni et 4% (chacun) de l'Australie et du Canada",
+                                                                        "Scrum Alliance par continent : 53% des membres viennent de l'Amérique du Nord, 25% de l'Europe, 10% de l'Asie, 5% de l'Amérique du Sud, 4% de l'Australie, 1% de l'Afrique, 1% du Moyen-Orient et moins d'un 1% de l'Amérique centrale",
+                                                                        "63% des projets Scrum ont réussi"
+                                                                    ]
+                                                        },
+                                                        {
+                                                            "title" : "<a href='https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use'>Enquête</a> faite par StackOverflow l'année 2018, contenant les réponses de 57075 développeurs professionnels. Les réponses multiples ont été autorisées.",
+                                                            "data" : [
+                                                                        "85.9% des personnes a utilisé une méthode agile",
+                                                                        "63.5% a utilisé le Scrum",
+                                                                        "35.6% a utilisé le Kanban",
+                                                                        "15.7% a utilisé l'Extreme Programming"
+                                                                    ]
+                                                        },
+                                                        {
+                                                            "title" : "<a href='https://www.stateofagile.com/#ufh-i-521251909-13th-annual-state-of-agile-report/473508'>Enquête</a> faite par stateofagile.com entre août et décembre 2018. Les résultats sont basés sur 1319 réponses complètes provenant des membres des entreprises de tout le monde.",
+                                                            "data" : [
+                                                                        "54% utilise Scrum",
+                                                                        "32% utilise des hybrides (Scrumban ou Scrum + Extreme Programming, par exemple)",
+                                                                        "5% utilise Kanban",
+                                                                        "1% utilise l'Extreme Programming"
+                                                                    ]
+                                                        }
+                                                    ]
                         }
                     ]
     },
@@ -146,7 +161,8 @@
                         "FDD",
                         "DSDM",
                         "ASD",
-                        "About"
+                        "About",
+                        "Statistics"
                     ],
         "definition" : "<h2>Agile<span>: \"</span>Able to move<br/>quickly and easily<span>\"</span></h2>",
         "subtitle" : "École Centrale de Lyon's technological tracking tool: Comparison of agile software development methods",
@@ -179,9 +195,6 @@
                         },
                         {
                             "title" : "Scrum",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["Well defined roles with their responsibilities (Scrum Master, Development Team or Scrum Team, Product Owner)", "Work divided into Sprints. Each Sprint must deliver a working product, so a tested product", "The Product Owner is the link between the client and the Scrum Team", "Scrum Teams are self-organizing and cross-functional. No one tells the Team how to transform Backlog items into increments"],
@@ -196,9 +209,6 @@
                         },
                         {
                             "title" : "Kanban",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["Kanban Board with visual representation of process and work, easily viewable by the team", "Work is divided into columns, normally \"TO DO\", \"IN PROGRESS\", and \"DONE\" according to the state of the code for that feature", "Kanban states that managers should work collaboratively with the team. That allows managers to get new points of view and keeps team members invested in make things work", "Work moves through columns. The amount and the name of the columns are adapted to the project"],
@@ -208,9 +218,6 @@
                         },
                         {
                             "title" : "Extreme Programming",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["Pair Programming", "Continuous tests", "The Customer writes the stories (1 story for each feature)", "The stories have regular updates"],
@@ -223,9 +230,6 @@
                         },
                         {
                             "title" : "Feature Driven Development",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["Defined roles:<br><ul><li><b>Key roles:</b> Project Manager, Chief Programmer, Class Owner, and Domain Expert</li><li><b>Supporting roles:</b> Release Manager, Language Guru, Build Engineer, Toolsmith, and System Administrator</li><li><b>Additional roles:</b> Tester, Deployer, and Technical Writer</li></ul>", "Feature Sets are sequenced according to their priority and dependencies", "The development team presents the \"Client Valued Functions\", that come from users's requirements. This list of features must be validated by the users and sponsors of the system", "Overall domain divided into different domain areas"],
@@ -236,9 +240,6 @@
                         },
                         {
                             "title" : "Dynamic Systems Development Method",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["There are 15 roles for users and developers. The most relevant:<br><ul><li><b>Development:</b> Developers, Senior Developers, and Technical Coordinator</li><li><b>Users:</b> Ambassador User, Adviser User, Visionary, and Executive Sponsor</li></ul>", "Prototypes built in the \"Functional Model Iteration\" phase are gradually steered to such quality that allows them to be in the final system", "In the \"Business Study\" phase, customer's experts decide relevant facets of the system and priorities", "Iterations, called \"timeboxes\", long from a few days to a few weeks"],
@@ -250,9 +251,6 @@
                         },
                         {
                             "title" : "Adaptive Software Development",
-                            "statistics" : {
-                                                "title" : "Usage statistics"
-                                            },
                             "agile_table" : [
                                                 ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
                                                 ["No fixed team description, but a few roles are defined (Execute Sponsor, for exemple). In Joint Application Development (JAD) sessions, we find roles such as the Facilitator, the Scribe, the Project Manager, the Customer, and Development Representatives", "The focus is on results and their quality more than in task or processes used for producing the results", "There are Joint Application Development (JAD) sessions, where customers and developers discuss features desired. JAD sessions are pointed as particularly important at the beginning of the project", "\"Balancing in the edge of chaos\": enough guidance to prevent projects falling into chaos, but not too much, which could suppress emergence and creativity"],
@@ -263,7 +261,39 @@
                         },
                         {
                             "title" : "About",
-                            "description" : "As part of the course \"New Technologies of Information and Communication\" proposed to the students of last year by École Centrale Lyon, I developed a tracking tool in order to find informations related to the agile methods in software development. The first goal of this tracking tool was to compare the different existent agile methods, while the second goal was to try to find usage statistics for each method found. This website is a summary of the informations obtained by the tracking tool.<br>The summary begins with the Agile Manifesto, the document that formalises agile development. Then, for each agile method obtained by the tracking tool, found statistics are proposed. In addition, a table containing characteristics of the method (not necessarily exhaustive) is also proposed. These characteristics are classified according to the 4 pillars of value proposed by the Agile Manifesto.<br>For developing this tool, I used searcher engines such as <b>Social-Searcher</b> and <b>Google Scholar</b>. They allowed me to find sources such as the <b>Agile Alliance</b>, <b>Scrum.org</b>, and <b>Serious Scrum</b> on <b>Medium.com</b>, as well as academic articles. Finally, I got the results of these searcher engines on my mailbox (or by RSS feed if email was not an option) and then I shared on my Twitter account the ones I found the most relevant"
+                            "description" : "As part of the course \"New Technologies of Information and Communication\" proposed to the students of last year by École Centrale Lyon, I developed a tracking tool in order to find informations related to the agile methods in software development. The first goal of this tracking tool was to compare the different existent agile methods, while the second goal was to try to find usage statistics for each method found. This website is a summary of the informations obtained by the tracking tool.<br>The summary begins with the Agile Manifesto, the document that formalises agile development. Then, for each agile method obtained by the tracking tool, a table containing characteristics of the method (not necessarily exhaustive) is proposed. These characteristics are classified according to the 4 pillars of value proposed by the Agile Manifesto. Finally, a section with some statistics concerning the agile methodologies of sowftware development is proposed<br>For developing this tool, I used searcher engines such as <b>Social-Searcher</b> and <b>Google Scholar</b>. They allowed me to find sources such as the <b>Agile Alliance</b>, <b>Scrum.org</b>, and <b>Serious Scrum</b> on <b>Medium.com</b>, as well as academic articles. Finally, I got the results of these searcher engines on my mailbox (or by RSS feed if email was not an option) and then I shared on my Twitter account the ones I found the most relevant."
+                        },
+                        {
+                            "title" : "Statistics",
+                            "description" : "Although the initial idea was to find usage statistics by method and by country, the results were not so favourable. In any case, here are some statistics provided by the tracking tool:",
+                            "statistic_list" : [
+                                                        {
+                                                            "title" : "<a href='https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Files%20and%20PDFs/State%20of%20Scrum/2017-SoSR-Final-Version-(Pages).pdf'>Survey</a> by the Scrum Alliance concerning their more than 2000 members on 2017.",
+                                                            "data" : [
+                                                                        "Top 5 : 48% of members come from the USA, 7% from India, 6% from Germany, 5% from the UK, and 4% (each) from Australia and Canada",
+                                                                        "Scrum Alliance by continent : 53% of members come from North America, 25% from Europe, 10% from Asia, 5% from South America, 4% from Australia, 1% from Africa, 1% from the Middle East, and less than 1% from Central America",
+                                                                        "63% of Scrum projects are successful"
+                                                                    ]
+                                                        },
+                                                        {
+                                                            "title" : "<a href='https://insights.stackoverflow.com/survey/2018#work-_-which-methodologies-do-developers-use'>Survey</a> by StackOverflow on 2018, considering the answers of 57075 professional developers. Multiple answers by developer were allowed.",
+                                                            "data" : [
+                                                                        "85.9% of people have used an agile method",
+                                                                        "63.5% have used Scrum",
+                                                                        "35.6% have used Kanban",
+                                                                        "15.7% have used Extreme Programming"
+                                                                    ]
+                                                        },
+                                                        {
+                                                            "title" : "<a href='https://www.stateofagile.com/#ufh-i-521251909-13th-annual-state-of-agile-report/473508'>Survey</a> by stateofagile.com between August and December of 2018. The results are based on 1319 complete answers coming from members of enterprises from the whole world",
+                                                            "data" : [
+                                                                        "54% use Scrum",
+                                                                        "32% use hybrid methods (Scrumban or Scrum + Extreme Programming, for example)",
+                                                                        "5% use Kanban",
+                                                                        "1% use Extreme Programming"
+                                                                    ]
+                                                        }
+                                                    ]
                         }
                     ]
     }

@@ -386,6 +386,40 @@ nav.navbar.bootsnav .navbar-toggle i{color: #0c127b;}
     padding: 5px;
 }
 
+.stats-list li {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    list-style: square;
+    text-align: justify;
+}
+
+.stats-list {
+    margin-bottom: 30px;
+}
+
+#stats h3 {
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.survey-link a:link {
+  text-decoration: underline;
+  color: #1325d8;
+}
+
+.survey-link a:visited {
+  text-decoration: none;
+}
+
+.survey-link a:hover {
+  text-decoration: underline;
+}
+
+.survey-link a:active {
+  text-decoration: underline;
+}
+
 .education {
     background:  #f9fbfd;
     padding-top:  50px;
