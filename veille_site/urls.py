@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from summary import views as sm_views
+from django.http import HttpResponseRedirect
 
 urlpatterns = [
-	path('summary/', include('summary.urls')),
+    path('', lambda x: HttpResponseRedirect('summary/')),
+    path('summary/', include('summary.urls')),
     path('admin/', admin.site.urls),
 ]

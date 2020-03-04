@@ -1,0 +1,270 @@
+{
+    "fr" :
+    {
+        "lang_button": "English",
+        "lang_link" : "en",
+        "title" : "Comparaison des méthodes de développement agile",
+        "navbar" : [
+                        "Manifeste Agile",
+                        "Scrum",
+                        "Kanban",
+                        "XP",
+                        "FDD",
+                        "DSDM",
+                        "ASD",
+                        "À propos"
+                    ],
+        "definition" : "<h2>Agile <span>: «</span> Qui a de la facilité<br/>et de la rapidité dans l'exécution<br/>de ses mouvements <span>»</span></h2>",
+        "subtitle" : "Veille technologique École Centrale de Lyon : Comparaison des méthodes de développement agile",
+        "sections" : [
+                        {
+                            "title" : "Manifeste agile",
+                            "description" : "Le Manifeste Agile a été la formalisation de cette manière de développer des logiciels.",
+                            "principles_title" : "Principes : le Manifeste Agile est composé de 12 principes qui décrivent la manière agile de développer des logiciels",
+                            "principles" : {
+                                                "1" : "La principale priorité est de satisfaire les clients avec une livraison continue et rapide du code de valeur",
+                                                "2" : "Donner la bienvenue aux changements pendant tout le processus de développement",
+                                                "3" : "Livrer des logiciels fréquemment : entre deux semaines et deux mois, avec une préférence pour la courte durée",
+                                                "4" : "Collaboration continue entre développeurs et managers",
+                                                "5" : "Créer les projets autour des personnes motivées. Leur fournir un environnement approprié et leur faire confiance",
+                                                "6" : "Les conversations en face à face sont la manière la plus efficace de communiquer les informations",
+                                                "7" : "Les logiciels qui fonctionnent sont la meilleure manière de mesurer le progrès",
+                                                "8" : "Promotion du développement durable : le rythme de travail doit pouvoir se maintenir",
+                                                "9" : "Faire attention au bon design et à l'excellence technique de manière constante",
+                                                "10" : "La simplicité est essentielle",
+                                                "11" : "Les meilleures architectures, exigences et designs viennent des équipes auto-organisées",
+                                                "12" : "Réfléchir régulièrement à comment devenir plus efficace et modifier le comportement en conséquence"
+                                            },
+                            "values_title" : "Valeurs : dans le développement agile de logiciels, la valeur va aux éléments de droite plus qu'aux éléments de gauche",
+                            "values" : {
+                                        "1" : ["Personnes et interactions", "Processus et outils"],
+                                        "2" : ["Logiciels qui fonctionnent", "Documentation exhaustive"],
+                                        "3" : ["Collaboration du client", "Négociation du contrat"],
+                                        "4" : ["Répondre aux changements", "Suivre un programme"]
+                                    }
+                        },
+                        {
+                            "title" : "Scrum",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Rôles et ses responsabilités bien définis (Scrum Master, Équipe de développement ou Scrum Team, Product Owner)", "Travail divisé en Sprints, où chacun doit livrer un produit fonctionnel, alors testé", "Le Product Owner est le lien entre le client et le Scrum Team", "Les Scrum Teams sont auto-organisées et plurifonctionnelles. Personne ne dit aux Scrum Teams comment tranformer les éléments du Backlog en incréments"],
+                                                ["Transparence des processus pour que tout le monde les comprenne de le même manière","", "Le Product Owner est la seule personne responsable de la gestion du Product Backlog, même si le travail peut être délégué à le Scrum Team", "Les Sprints ont une durée d'un mois ou moins"],
+                                                ["Une définition commune de \"travail fait\"", "", "À la fin d'un Sprint, un Sprint Review est fait. Le Product Owner invite les personnes intéressées du côté client", "Le Sprint Retrospective est une opportunité pour le Scrum Team de s'auto-évaluer et de créer un plan pour améliorer"],
+                                                ["Culture du Scrum Team basée sur \"engagement\", \"courage\", \"concentration\", \"ouverture d'esprit\" et \"respect\"", "", "", "Le Product Backlog est dynamique (Backlog Refinement, par exemple)"],
+                                                ["Le Scrum Master est en charge de guider les personnes internes et externes à l'équipe de travail de manière que tous interagissent selon les règles du Scrum", "", "", ""],
+                                                ["Chaque Scrum Event a une durée maximale définie", "", "", ""],
+                                                ["Daily Scrum : le Scrum Team prend 15 minutes chaque jour d'un Sprint pour planifier le travail des prochaines 25 heures", "", "", ""]
+                                            ]
+                        },
+                        {
+                            "title" : "Kanban",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Le Kanban Board a une représentation visuelle du process et du travail facilement visible par l'équipe", "Le travail est divisé en colonnes, normalement \"TO DO\", \"IN PROGRESS\" et \"DONE\"", "Kanban déclare que les managers devraient travailler en collaboration avec l'équipe. Cela leur permet d'obtenir nouveaux points de vue et maintient les membres de l'équipe engagés à faire fonctionner les choses", "Le travail se déplace à travers les colonnes. La quantité et le nom des colonnes sont adaptés au projet"],
+                                                ["Les objets du Kanban Board sont déplacés entre colonnes par les membre de l'équipe", "", "", "Les colonnes ont une limite d'objets, donc s'il y a un point de blocage, les équipes le corrigent pour pouvoir continuer (travails flexibles)"],
+                                                ["Le Kanban Board est examiné de manière constante", "", "", "Le processus est examiné de manière constante pour éviter des points de blocage dans l'avenir"]
+                                            ]
+                        },
+                        {
+                            "title" : "Extreme Programming",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Pair Programming", "Des tests continus", "Le Costumer écrit les histoires (1 histoire pour chaque caractéristique)", "Les histoires sont régulièrement mises à jour"],
+                                                ["Les Programmers estiment l'effort pour chaque histoire", "La documentation est faite seulement dans la Death Phase, donc quand le produit est prêt", "Le Customer crée les tests", "Le temps pour la première sortie du logiciel ne devrait pas dépasser les deux mois"],
+                                                ["Les rôles sont définis : Programmer, Customer, Tester, Tracker, Coach, Consultant et Manager", "La complexité et le code pas nécessaires sont enlevés immédiatement", "La Death Phase arrive quand le Customer n'a plus des histoires à ajouter", "Chaque itération a une durée entre 1 et 4 semaines"],
+                                                ["Des interactions étroites entre les Programmers et le Customer", "", "Le Customer doit être disponible à temps plein pour l'équipe", "Les changements au logiciel sont permis jusqu'à la dernière phase de production"],
+                                                ["Un maximum de 40 heures/semaines de travail est permis", "", "", "Tout le monde peut modifier n'importe quelle partie du code à tout moment"],
+                                                ["Toutes les pratiques qui soutiennent le développement agile doivent être portées à des niveaux extrêmes, d'où le nom de la méthode", "", "", ""]
+                                            ]
+                        },
+                        {
+                            "title" : "Feature Driven Development",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Rôles definis :<br><ul><li><b>Rôles clé :</b> Project Manager, Chief Programmer, Class Owner et Domain Expert</li><li><b>Rôles de soutènement :</b> Release Manager, Language Guru, Build Engineer, Toolsmith, and System Administrator</li><li><b>Rôles additionnels :</b> Tester, Deployer, and Technical Writer</li></ul>", "Les Feature Sets sont séquencés selon leur priorité et leur dépendances", "L'équipe de développement présente le \"Client Valued Functions\", ensemble des caractéristiques provenant des exigences des utilisateurs. Cette liste de caractéristiques doit être validée par les utilisateurs et les sponsors du système", "Le domaine global est divisé en différents domaines plus spécifiques"],
+                                                ["L'équipe de développement travail dans petits groupes pour produire des modèles pour chaque domaine spécifique créé depuis le domain global, puis les groupes discutent et décident le meilleur modèle pour chaque domaine", "Les itérations pour chaque caractéristique incluent testing, inspection du code et inspection du design", "Le Domain Expert doit être un utilisateur, un client, un sponsor, un analyste des affaires, ou un ensemble de ce type de personnes", "Les \"Client Valued Functions\" sont divisées par domaine, puis par \"activité\". Les groupes résultants sont appelés \"Feature Sets\""],
+                                                ["Les Features Teams (personnes nécessaires pour développer un Feature Set) sont créés par le Class Owner", "Le travail est basé sur versions régulières : il y a toujours un système fonctionnel et demonstrable disponible", "", "Les itérations pour chaque caractéristique ont une durée de 1 à 3 semaines"],
+                                                ["", "Le progrès du projet est basé sur le travail completé", "", "Un membre de l'équipe peut représenter des rôles multiples et un rôle peut être représenté par plusieurs membres de l'équipe"]
+                                            ]
+                        },
+                        {
+                            "title" : "Dynamic Systems Development Method",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Il y a 15 rôles pour les clients et les développeurs, dont les plus importants :<br><ul><li><b>Développement :</b> Developers, Senior Developers et Technical Coordinator</li><li><b>Client :</b> Ambassador User, Adviser User, Visionary et Executive Sponsor</li></ul>", "Les prototypes faits pendant la phase \"Functional Model Iteration\" sont graduellement amenés vers un niveau de qualité qui leur permet d'être partie du système final", "Dans la phase \"Business Study\", les experts du client décident des aspects importants du système et les priorités", "Les iterations, appelées \"timeboxes\", ont une durée de quelque jours à quelque semaines"],
+                                                ["Les équipes doivent être encouragées à prendre des décisions", "Le résultat de la phase \"Design and Build Iteration\" est un système testé", "La phase \"Functional Model Iteration\" inclut les \"Functional Prototyping Review Documents\", des documents avec les commentaires des clients concernant les incréments de l'itération en cours", "Dans la phase \"Business Study\", une première esquisse de la définition de l'architecture est créée, mais elle peut changer pendant le processus"],
+                                                ["Tous les personnes intéressées du côté client (managers, département IT, etc) doivent avoir une approche collaborative et coopérative", "\"Construire le produit approprié avant le construire de façon appropriée\"", "Le travail est basé sur les commentaires des clients", "Si dans la dernière phase (\"Implementation\") il y a encore du travail à faire, tout le processus peut être répété mais concentré sur ce qui reste"],
+                                                ["", "Le testing est intégré durant tout le cycle de développement", "", "Méthode concentrée sur la livraison fréquent de produits"],
+                                                ["", "", "", "Itérations courtes pour être capable de revenir sur les mauvaises décisions s'il est nécessaire"]
+                                            ]
+                        },
+                        {
+                            "title" : "Adaptive Software Development",
+                            "statistics" : {
+                                                "title" : "Statistiques d'utilisation"
+                                            },
+                            "agile_table" : [
+                                                ["Individus et interactions", "Logiciels qui fonctionnent", "Collaboration du client", "Négociation du contrat"],
+                                                ["Pas de description fixe de l'équipe, mais certains rôles sont définis (le Execute Sponsor, par exemple). Pendant les séances appelées Joint Application Development (JAD), on trouve des rôles comme le Facilitator, le Scribe, le Project Manager, le Customer et les Development Representatives", "L'attention est porté sur les résultats et leur qualité plutôt que sur les tâches ou les processus utilisés pour mettre en place ces résultats", "Il y a des séances Joint Application Development (JAD), où les clients et les développeurs discutent des caractéristiques souhaitées. Les séances JAD sont décrites comme particulièrement importantes au début du projet", "\"Équilibre à la limite du chaos\" : supervision assez forte pour prévenir l'échec du projet, mais pas trop forte parce que cela pourrait réprimer l'émergence et la creativité"],
+                                                ["", "Répétés examens de qualité par la démonstration du fonctionnement", "", "Le point de départ est la définition d'une \"mission\", un cadre grossier du produit final"],
+                                                ["", "", "", "Processus divisé en \"cycles\" d'une durée entre 4 et 8 semaines"],
+                                                ["", "", "", "Le planning est partie des itérations compte tenu que les définitions des composants du produit peuvent changer et doivent être raffinées"]
+
+                                            ]
+                        },
+                        {
+                            "title" : "À propos",
+                            "description" : "Dans le cadre du cours \"Nouvelles Technologies de l'Information et de la Communication\" proposé aux élèves de troisième année de l'École Centrale de Lyon, j'ai développé un outil de veille pour trouver des informations concernant les méthodologies de développement agile des logiciels. Le premier but de cet outil a été de comparer les différentes méthodes agiles existantes, alors que le deuxième a été d'essayer de trouver des statistiques d'utilisation pour chaque méthodologie trouvée. Ce site web est une synthèse des informations obtenues par l'outil mis en place.<br>La synthèse commence tout d'abord avec le Manifeste Agile, le document qui formalise le développement agile. Après, pour chaque méthode agile obtenue par l'outil de veille, des statistiques trouvées sont proposées. En plus, un tableau contenant des caractéristiques de la méthode (non nécessairement exhaustif) est proposé également. Ces caractéristiques sont classifiées selon les 4 piliers de valeur proposés par le Manifeste Agile.<br>Pour développer cet outil, j'ai utilisé des moteurs de recherche comme <b>Social-Searcher</b> et <b>Google Scholar</b>. Ces moteurs m'ont permis de trouver des sources tels que l'<b>Agile Alliance</b>, <b>Scrum.org</b> et <b>Serious Scrum</b> sur <b>Medium.com</b>, ainsi que des articles scientifiques. Finalement, j'ai reçu les résultats des moteurs de recherche directement sur ma boite mail (ou par flux RSS si le mail n'était pas une option) puis j'ai partagé sur mon compte Twitter ceux que j'ai trouvé les plus pertinents"
+                        }
+                    ]
+    },
+    "en" :
+    {
+        "lang_button": "Français",
+        "lang_link" : "fr",
+        "title" : "Comparison of agile software development methods",
+        "navbar" : [
+                        "Agile Manifesto",
+                        "Scrum",
+                        "Kanban",
+                        "XP",
+                        "FDD",
+                        "DSDM",
+                        "ASD",
+                        "About"
+                    ],
+        "definition" : "<h2>Agile<span>: \"</span>Able to move<br/>quickly and easily<span>\"</span></h2>",
+        "subtitle" : "École Centrale de Lyon's technological tracking tool: Comparison of agile software development methods",
+        "sections" : [
+                        {
+                            "title" : "Agile Manifesto",
+                            "description" : "The Agile Manifesto is the formalisation of this way of developing software.",
+                            "principles_title" : "Principles : the Agile Manifesto is composed by 12 principles that describe the agile way of developing software",
+                            "principles" : {
+                                                "1" : "The highest priority is to satisfy the costumers through early and continuous delivery of valuable software",
+                                                "2" : "Welcome changes during the whole process of development",
+                                                "3" : "Deliver working software frequently : from a couple of weeks to a couple of months, with a preference to the shorter timescale",
+                                                "4" : "Business people and developers must work together daily throughout the project",
+                                                "5" : "Build projects around motivated people. Give them the proper environment and trust them",
+                                                "6" : "Face-to-face conversation is the most efficient method of conveying information",
+                                                "7" : "Working software is the primary measure of progress",
+                                                "8" : "Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely",
+                                                "9" : "Continuous attention to technical excellence and good design enhances agility",
+                                                "10" : "Simplicity is essential",
+                                                "11" : "The best architectures, requirements, and designs emerge from self-organizing teams",
+                                                "12" : "At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly"
+                                            },
+                            "values_title" : "Values : in agile software development, value goes to the items on the right more than it goes to the items of the left",
+                            "values" : {
+                                        "1" : ["Individuals and interactions", "Processes and tools"],
+                                        "2" : ["Working software", "Comprehensive documentation"],
+                                        "3" : ["Customer collaboration", "Contract negotiation"],
+                                        "4" : ["Responding to change", "Following a plan"]
+                                    }
+                        },
+                        {
+                            "title" : "Scrum",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["Well defined roles with their responsibilities (Scrum Master, Development Team or Scrum Team, Product Owner)", "Work divided into Sprints. Each Sprint must deliver a working product, so a tested product", "The Product Owner is the link between the client and the Scrum Team", "Scrum Teams are self-organizing and cross-functional. No one tells the Team how to transform Backlog items into increments"],
+                                                ["Transparency of the processes so all the people working can understand the same", "", "The Product Owner is the sole person responsible for managing the Product Backlog, even if the work can be delegated to the Scrum Team", "Sprints last one month or less"],
+                                                ["A common definition of \"Done\"", "", "At the end of a Sprint, a Sprint review is done. The Product Owner invites stakeholders from the customer side to attend", "Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements"],
+                                                ["Culture of the Scrum Team based on \"commitment\", \"courage\", \"focus\", \"openness\", and \"respect\"", "", "", "Product Backlog is dynamic (Backlog refinement, for example)"],
+                                                ["Scrum Master is in charge of guiding people from inside and outside the Team to interact according to the Scrum framework", "", "", ""],
+                                                ["Every Scrum Event has a defined maximal duration", "", "", ""],
+                                                ["Daily Scrum: Scrum Team takes 15 minutes each day of a Sprint to plan the work for the next 24 hours", "", "", ""]
+
+                                            ]
+                        },
+                        {
+                            "title" : "Kanban",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["Kanban Board with visual representation of process and work, easily viewable by the team", "Work is divided into columns, normally \"TO DO\", \"IN PROGRESS\", and \"DONE\" according to the state of the code for that feature", "Kanban states that managers should work collaboratively with the team. That allows managers to get new points of view and keeps team members invested in make things work", "Work moves through columns. The amount and the name of the columns are adapted to the project"],
+                                                ["Items are moved between columns by team members", "", "", "Columns have a limit of items, so if there's a bottleneck, teams fix it in order to be able to continue working (flexible jobs)"],
+                                                ["Constant reviews of the Kanban Board", "", "", "Constant reviews of the process to avoid bottlenecks in the future"]
+                                            ]
+                        },
+                        {
+                            "title" : "Extreme Programming",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["Pair Programming", "Continuous tests", "The Customer writes the stories (1 story for each feature)", "The stories have regular updates"],
+                                                ["Programmers estimate effort for each story", "Documentation only at the Death Phase, so when the product is ready", "The Customer creates the tests", "The time for the first release shouldn't exceed two months"],
+                                                ["Roles defined: Programmer, Customer, Tester, Tracker, Coach, Consultant, and Manager", "Unnecessary complexity and extra-code are removed immediately", "The Death Phase is when the Customer has no more stories to add", "Each iteration lasts between 1 and 4 weeks"],
+                                                ["Close interactions between Programmers and Customer", "", "The Customer has to be available full-time for the team", "Changes to the software are allowed till the last phase of production"],
+                                                ["A maximum of 40 hours/week of work is allowed", "", "", "Anyone can change any part of the code at any time"],
+                                                ["All the practices that support agile development must be taken to extreme levels, hence the name of the method", "", "", ""]
+                                            ]
+                        },
+                        {
+                            "title" : "Feature Driven Development",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["Defined roles:<br><ul><li><b>Key roles:</b> Project Manager, Chief Programmer, Class Owner, and Domain Expert</li><li><b>Supporting roles:</b> Release Manager, Language Guru, Build Engineer, Toolsmith, and System Administrator</li><li><b>Additional roles:</b> Tester, Deployer, and Technical Writer</li></ul>", "Feature Sets are sequenced according to their priority and dependencies", "The development team presents the \"Client Valued Functions\", that come from users's requirements. This list of features must be validated by the users and sponsors of the system", "Overall domain divided into different domain areas"],
+                                                ["The development team works in small groups to produce models for each domain area created from the overall domain. Then, the groups discuss and decide the best model for each domain area", "Iterations for each feature include testing, code inspection and design inspection", "Domain Expert must be a user, client, sponsor, business analyst, or a mixture of these", "\"Client Valued Functions\" are divided by domain and then divided by \"activity\". The resulting groups are called \"Feature Sets\""],
+                                                ["Features Teams (people needed for developing these features) are created by the Class Owner", "The work is based in regular builds: there's always a running, demonstrable system available", "", "Iterations for each feature last 1 to 3 weeks"],
+                                                ["", "Progress is based on complete work", "", "One team member can play multiple roles and a role can be played by several people"]
+                                            ]
+                        },
+                        {
+                            "title" : "Dynamic Systems Development Method",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["There are 15 roles for users and developers. The most relevant:<br><ul><li><b>Development:</b> Developers, Senior Developers, and Technical Coordinator</li><li><b>Users:</b> Ambassador User, Adviser User, Visionary, and Executive Sponsor</li></ul>", "Prototypes built in the \"Functional Model Iteration\" phase are gradually steered to such quality that allows them to be in the final system", "In the \"Business Study\" phase, customer's experts decide relevant facets of the system and priorities", "Iterations, called \"timeboxes\", long from a few days to a few weeks"],
+                                                ["Teams must be empowered to make decision", "The output of the \"Design and Build Iteration\" is a tested system", "The \"Functional Model Iteration\" includes \"Functional Prototyping Review Documents\", documents with user's comments about the increments of the iteration in progress", "In the \"Business Study\" phase, a first architecture definition sketch is created, but it's possible to change it later in the process"],
+                                                ["Collaborative and cooperative approach by all stakeholders (business, IT department, etc)", "\"Build the right product before you build it right\"", "Further development based on user's comments", "If in the last phase (\"Implementation\") there are still things to do, the whole process can be done again focused in what remains"],
+                                                ["", "Testing is integrated throughout the lifecycle", "", "Focus on frequent delivery of products"],
+                                                ["", "", "", "Short iterations in order to be able to reverse bad decisions if necessary"]
+                                            ]
+                        },
+                        {
+                            "title" : "Adaptive Software Development",
+                            "statistics" : {
+                                                "title" : "Usage statistics"
+                                            },
+                            "agile_table" : [
+                                                ["Individuals and interactions", "Working software", "Customer collaboration", "Responding to change"],
+                                                ["No fixed team description, but a few roles are defined (Execute Sponsor, for exemple). In Joint Application Development (JAD) sessions, we find roles such as the Facilitator, the Scribe, the Project Manager, the Customer, and Development Representatives", "The focus is on results and their quality more than in task or processes used for producing the results", "There are Joint Application Development (JAD) sessions, where customers and developers discuss features desired. JAD sessions are pointed as particularly important at the beginning of the project", "\"Balancing in the edge of chaos\": enough guidance to prevent projects falling into chaos, but not too much, which could suppress emergence and creativity"],
+                                                ["", "Repeated quality reviews by demonstration of the functionality", "", "The start point is defining a \"mission\", a coarse frame for the end product"],
+                                                ["", "", "", "Process is divided in \"cycles\" of 4 to 8 weeks"],
+                                                ["", "", "", "Planning is part of the iteration as the definitions of the components may change and must be refined"]
+                                            ]
+                        },
+                        {
+                            "title" : "About",
+                            "description" : "As part of the course \"New Technologies of Information and Communication\" proposed to the students of last year by École Centrale Lyon, I developed a tracking tool in order to find informations related to the agile methods in software development. The first goal of this tracking tool was to compare the different existent agile methods, while the second goal was to try to find usage statistics for each method found. This website is a summary of the informations obtained by the tracking tool.<br>The summary begins with the Agile Manifesto, the document that formalises agile development. Then, for each agile method obtained by the tracking tool, found statistics are proposed. In addition, a table containing characteristics of the method (not necessarily exhaustive) is also proposed. These characteristics are classified according to the 4 pillars of value proposed by the Agile Manifesto.<br>For developing this tool, I used searcher engines such as <b>Social-Searcher</b> and <b>Google Scholar</b>. They allowed me to find sources such as the <b>Agile Alliance</b>, <b>Scrum.org</b>, and <b>Serious Scrum</b> on <b>Medium.com</b>, as well as academic articles. Finally, I got the results of these searcher engines on my mailbox (or by RSS feed if email was not an option) and then I shared on my Twitter account the ones I found the most relevant"
+                        }
+                    ]
+    }
+}

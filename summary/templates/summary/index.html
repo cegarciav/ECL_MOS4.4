@@ -1,0 +1,585 @@
+{% load static %}
+
+<html>
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+      
+    <!-- title of site -->
+    <title>{{ title }}</title>
+
+      <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="{% static 'summary/logo/favicon.png' %}"/>
+     
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/font-awesome.min.css' %}">
+
+    <!--flat icon css-->
+    <link rel="stylesheet" href="{% static 'summary/css/flaticon.css' %}">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/animate.css' %}">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'summary/css/owl.theme.default.min.css' %}">
+    
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/bootstrap.min.css' %}">
+    
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="{% static 'summary/css/bootsnav.css' %}" > 
+        
+    <!--style.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/style.css' %}">
+    
+    <!--responsive.css-->
+    <link rel="stylesheet" href="{% static 'summary/css/responsive.css' %}">
+        
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!-- top-area Start -->
+    <header class="top-area">
+      <div class="header-area">
+      <!-- Start Navigation -->
+        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle"
+                      data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="{{ lang_link }}">{{ lang_button }}</a>
+            </div><!--/.navbar-header-->
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+              <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class=" smooth-menu active"></li>
+                <li class="smooth-menu"><a href="#tracking">{{ navbar.7 }}</a></li>
+                <li class=" smooth-menu"><a href="#manifesto">{{ navbar.0 }}</a></li>
+                <li class="smooth-menu"><a href="#scrum">{{ navbar.1 }}</a></li>
+                <li class="smooth-menu"><a href="#kanban">{{ navbar.2 }}</a></li>
+                <li class="smooth-menu"><a href="#xp">{{ navbar.3 }}</a></li>
+                <li class="smooth-menu"><a href="#fdd">{{ navbar.4 }}</a></li>
+                <li class="smooth-menu"><a href="#dsdm">{{ navbar.5 }}</a></li>
+                <li class="smooth-menu"><a href="#asd">{{ navbar.6 }}</a></li>
+              </ul><!--/.nav -->
+            </div><!-- /.navbar-collapse -->
+          </div><!--/.container-->
+        </nav><!--/nav-->
+        <!-- End Navigation -->
+      </div><!--/.header-area-->
+      <div class="clearfix"></div>
+    </header><!-- /.top-area-->
+    <!-- top-area End -->
+  
+    <!--welcome-hero start -->
+    <section id="welcome-hero" class="welcome-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="header-text">
+              {% autoescape off %}
+                {{ definition }}
+              {% endautoescape %}
+              <p>{{ subtitle }}</p>
+            </div><!--/.header-text-->
+          </div><!--/.col-->
+        </div><!-- /.row-->
+      </div><!-- /.container-->
+    </section><!--/.welcome-hero-->
+    <!--welcome-hero end -->
+
+    <!--tracking start -->
+    <section id="tracking" class="contact">
+      <div class="section-heading text-center">
+        <h2>{{ sections.7.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="profiles-content">
+          <div class="row">
+            <h3>
+              {% autoescape off %}
+                {{ sections.7.description }}
+              {% endautoescape %}
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="http://www.social-searcher.com">
+                    <img src="{% static 'summary/images/social_searcher.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Social-Searcher</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="http://www.social-searcher.com">
+                      <img src="{% static 'summary/images/social_searcher.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Social-Searcher</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="https://scholar.google.fr/">
+                    <img src="{% static 'summary/images/g_scholar.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Google Scholar</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="https://scholar.google.fr/">
+                      <img src="{% static 'summary/images/g_scholar.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Google Scholar</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="https://twitter.com/cegarciav_agile">
+                    <img src="{% static 'summary/images/twitter.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Twitter</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="https://twitter.com/cegarciav_agile">
+                      <img src="{% static 'summary/images/twitter.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Twitter</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile profile-no-border">
+                <div class="profile-txt">
+                  <a href="https://www.agilealliance.org/">
+                    <img src="{% static 'summary/images/agile_alliance.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Agile Alliance</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="https://www.agilealliance.org/">
+                      <img src="{% static 'summary/images/agile_alliance.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Agile Alliance</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-border"></div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="https://www.scrum.org/">
+                    <img src="{% static 'summary/images/scrum-org.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Scrum.org</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="https://www.scrum.org/">
+                      <img src="{% static 'summary/images/scrum-org.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Scrum.org</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="https://medium.com/serious-scrum">
+                    <img src="{% static 'summary/images/serious-scrum.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Serious Scrum</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="https://medium.com/serious-scrum">
+                      <img src="{% static 'summary/images/serious-scrum.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">Serious Scrum</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile">
+                <div class="profile-txt">
+                  <a href="">
+                    <img src="{% static 'summary/images/rss.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">RSS</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="">
+                      <img src="{% static 'summary/images/rss.png' %}"/>
+                    </a>
+                    <div class="profile-icon-name">RSS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="single-profile profile-no-border">
+                <div class="profile-txt">
+                  <a href="">
+                    <img src="{% static 'summary/images/envelope.png' %}"/>
+                  </a>
+                  <div class="profile-icon-name">Email</div>
+                </div>
+                <div class="single-profile-overlay">
+                  <div class="profile-txt">
+                    <a href="">
+                      <img src="{% static 'summary/images/envelope.png' %}" style="filter:invert(1)" />
+                    </a>
+                    <div class="profile-icon-name">Email</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--/.tracking-->
+    <!--tracking end -->
+
+    <!--manifesto start -->
+    <section id="manifesto" class="about">
+      <div class="section-heading text-center">
+        <h2>{{ sections.0.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.0.description }}
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="manifesto-values">
+                <h4 class="manifesto-title">
+                  {{ sections.0.values_title }}
+                </h4>
+                <table>
+                  {% for key, value in sections.0.values.items %}
+                  <tr>
+                    <td>{{ key }}. {{ value.1}}</td>
+                    <td><span>&#x2192;</span></td>
+                    <td>{{ value.0}}</td>
+                  </tr>
+                  {% endfor %}
+                </table>
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-sm-6">
+              <div class="manifesto-principles">
+                <h4 class="manifesto-title">
+                  {{ sections.0.principles_title }}
+                </h4>
+                {% for key, value in sections.0.principles.items %}
+                <p>
+                  {{ key }}. {{ value}}
+                </p>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--manifesto end -->
+
+    <!--scrum start -->
+    <section id="scrum" class="skills">
+      <div class="section-heading text-center">
+        <h2>{{ sections.1.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.1.statistics.title}}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.1.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    <td>{{ column }}</td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+
+    </section><!--/.skills-->
+    <!--scrum end -->
+
+    <!--kanban start -->
+    <section id="kanban" class="experience">
+      <div class="section-heading text-center">
+        <h2>{{ sections.2.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.2.statistics.title }}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.2.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    <td>{{ column }}</td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+    </section><!--/.experience-->
+    <!--kanban end -->
+
+    <!--xp start -->
+    <section id="xp" class="profiles">
+      <div class="section-heading text-center">
+        <h2>{{ sections.3.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.3.statistics.title }}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.3.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    <td>{{ column }}</td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+    </section><!--/.profiles-->
+    <!--xp end -->
+
+    <!--fdd start -->
+    <section id="fdd" class="portfolio">
+      <div class="section-heading text-center">
+        <h2>{{ sections.4.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.4.statistics.title }}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.4.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    {% autoescape off %}
+                      <td>{{ column }}</td>
+                    {% endautoescape %}
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+    </section><!--/.portfolio-->
+    <!--fdd end -->
+
+    <!--dsdm start -->
+    <section id="dsdm" class="clients">
+      <div class="section-heading text-center">
+        <h2>{{ sections.5.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.5.statistics.title }}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.5.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    {% autoescape off %}
+                      <td>{{ column }}</td>
+                    {% endautoescape %}
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+    </section><!--/.dsdm-->
+
+    <!--asd start -->
+    <section id="asd" class="portfolio">
+      <div class="section-heading text-center">
+        <h2>{{ sections.6.title}}</h2>
+      </div>
+      <div class="container">
+        <div class="table-content">
+          <div class="row">
+            <div class="manifesto">
+              <h3>
+                {{ sections.6.statistics.title }}
+              </h3>
+            </div>
+          </div>
+          <table>
+            {% for value in sections.6.agile_table %}
+              <tr>
+                {% for column in value %}
+                  {% if forloop.parentloop.counter0 == 0 %}
+                    <th>{{ column }}</th>
+                  {% else %}
+                    <td>{{ column }}</td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </table>
+        </div><!-- /.skill-content-->
+      </div>  <!-- /.container -->    
+    </section><!--/.contact-->
+    <!--asd end -->
+
+    <!--footer-copyright start-->
+    <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+        <div class="hm-footer-copyright text-center">
+          <p>
+            &copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+          </p><!--/p-->
+        </div><!--/.text-center-->
+      </div><!--/.container-->
+
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i class="fa fa-angle-up " id="scroll-top" ></i>
+        </div>
+        
+      </div><!--/.scroll-Top-->
+      
+        </footer><!--/.footer-copyright-->
+    <!--footer-copyright end-->
+    
+    <!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+    <script src="{% static 'summary/js/jquery.js' %}"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    
+    <!--bootstrap.min.js-->
+        <script src="{% static 'summary/js/bootstrap.min.js' %}"></script>
+    
+    <!-- bootsnav js -->
+    <script src="{% static 'summary/js/bootsnav.js' %}"></script>
+    
+    <!-- jquery.sticky.js -->
+    <script src="{% static 'summary/js/jquery.sticky.js' %}"></script>
+    
+    <!-- for progress bar start-->
+
+    <!-- progressbar js -->
+    <script src="{% static 'summary/js/progressbar.js' %}"></script>
+
+    <!-- appear js -->
+    <script src="{% static 'summary/js/jquery.appear.js' %}"></script>
+
+    <!-- for progress bar end -->
+
+    <!--owl.carousel.js-->
+        <script src="{% static 'summary/js/owl.carousel.min.js' %}"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    
+        
+        <!--Custom JS-->
+        <script src="{% static 'summary/js/custom.js' %}"></script>
+        
+    </body>
+
+</html>
